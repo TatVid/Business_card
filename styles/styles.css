@@ -1,0 +1,196 @@
+/* Main styles */
+.main{
+    position: absolute;
+    width: 1366px;
+    height: 693px;
+    left: 0px;
+    top: 0px;
+
+background: #621212;
+       
+}
+
+
+/* <!-- logotype styles --> */
+.logotype{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+
+    position: absolute;
+    width: 539px;
+    height: 70px;
+    left: 15px;
+    top: 22px;
+
+}
+.text_two{
+    margin-left: 47px;
+    margin-bottom: 5px;
+}
+
+.user{
+    padding: 0;
+    margin-left: 10px;
+}
+
+
+/* <!-- Main information -->  */
+.main_information{
+    position: absolute;
+    width: 1155px;
+    height: 300px;
+    left: 135px;
+    top: 171px;
+
+}
+.text_one{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 61px;
+
+color: #000000;
+
+}
+
+.text_three{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 0%;
+letter-spacing: 0.305em;
+
+color: #000000;
+}
+button{
+    position: absolute;
+    width: 200px;px;
+    height: 60px;
+    left: 100px;
+    background-color:  #FB2828;
+    box-shadow: 3px 3px 5px rgb(255, 255, 255);
+    
+
+}
+.text_button{
+    color: black;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+   
+}
+.site{
+    color: black;
+    text-decoration-line: none;
+}
+
+/* <!-- Advertising --> */
+.advertising{
+    position: absolute;
+    width: 696px;
+    height: 111px;
+    padding: 0;
+    margin-left: 0px;
+    top: 580px;
+   
+}
+.images{
+    position: absolute;
+    width: 184px;
+    height: 94px;
+    left: 65px;
+    
+
+}
+.info{
+    display: flex;
+    flex-direction: row-reverse;  
+  
+}
+.date{
+    position: absolute;
+    width: 205px;
+    height: 78px;
+    left: 280px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 0%;
+    color: #000000;
+ 
+}
+.information{
+    position: absolute;
+    width: 481px;
+    height: 0px;
+    left: 280px;
+    top: 45px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 0%;
+    color: black;
+}
+
+/* <!-- Pictures --> */
+.pictures{
+    display: flex;
+    flex-direction: row-reverse; 
+    position: absolute;
+    width: 531px;
+    height: 648px;
+    left: 825px;
+    top: 22px;
+   }
+
+   @media screen and (max-width: 575px) {
+    .main {
+           width: 100%;
+           padding: 0 15px;
+       }
+       
+   }
+
+   @media screen and (max-width: 767px) {
+    .main  {
+        width: 540px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .main {
+        width: 720px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1199px) {
+    .main  {
+        width: 960px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .main  {
+        width: 1140;
+        
+    }
+    
+}
